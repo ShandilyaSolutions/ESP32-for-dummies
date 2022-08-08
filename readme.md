@@ -34,3 +34,15 @@ Here we will be using our ESP to scan all the available networks and display the
 Copy the code from [this](https://github.com/ShandilyaSolutions/ESP32-for-dummies/blob/main/wifi.ino) file and paste it into the Arduino IDE. Compile it and upload it. Open a Serial Monitor and you shall see the available networks displayed in it.
 
 ![alt Wifi code output](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/02/Scan-WiFi-Networks-ESP32-Arduino-IDE-Serial-Monitor.png?resize=733%2C541&quality=100&strip=all&ssl=1)
+
+### Connecting to a Wifi network
+We can connect our ESP to a Wifi network in order to do some IoT thingies. This is one of the methods to do so. Here we use the *WiFi.h* library only. It is the pretty straightforward way of connecting the ESP to a network. 
+
+So, copy and paste the code from [here](https://github.com/ShandilyaSolutions/ESP32-for-dummies/blob/main/Connecting2Wifi.ino). Compile it and upload it to the board. And open the Serial monitor.
+
+*This may take a few trials, so in case yo see nothing on the monitor try disconnecting and reconnecting the USB cable connecting ESP32 to your computer few times until you see the output like this:*
+![output](https://electropeak.com/learn/wp-content/uploads/2019/07/ESP32-WebServer-STAmode.png) The statements in the output will be different because I used different statements.
+
+**Note: Esp can not connect to 5g networks. Trying to do so will give Failed message.**
+
+**This method is not recommended because here we have to hardcode our Wifi credentials.**

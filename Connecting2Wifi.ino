@@ -8,7 +8,7 @@
 void connectToWiFi(){
   Serial.print("Connecting to Wifi");
   WiFi.mode(WIFI_STA);
-  WiFi.begin("SHIV","7903054235");
+  WiFi.begin("YOUR WIFI NAME","YOUR WIFI PASSWORD");
 
   unsigned long AttemptTime = millis();
 

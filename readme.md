@@ -46,3 +46,13 @@ So, copy and paste the code from [here](https://github.com/ShandilyaSolutions/ES
 **Note: Esp can not connect to 5g networks. Trying to do so will give Failed message.**
 
 **This method is not recommended because here we have to hardcode our Wifi credentials.**
+
+## Bluetooth Classic 
+It is one of the two Bluetooth modes available in ESP to work with Bluetooth Serial Communication. To check that this feature of the ESP you bought works there are excellent tutorials available on the net. 
+
+Links to the articles and YT video that I found useful are given below, follow them to get the desired output.
+
+*Bluetooth Classic is easy to code and implement, but **it draws a lot of power***, so it may be a bottleneck for battery powered project.*
+
+- [YT video link](https://youtu.be/RStncO3zb8g) 
+- [Text article link](https://randomnerdtutorials.com/esp32-bluetooth-classic-arduino-ide/)
